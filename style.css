@@ -143,9 +143,7 @@ hr {
   float: right;
   line-height: 100px;
 }
-.subcategory {
-  display: none;
-}
+
 .subcategory li {
   height: 100px;
   line-height: 100px;
@@ -164,9 +162,8 @@ a:active {
   color: black;
   padding: 20px;
 }
-
-.canHide {
-  display: block;
+.subcategory {
+  display: none;
 }
 
 #shipping {
@@ -190,4 +187,7 @@ footer h2 {
 .contactInfo h4 {
   padding: 30px;
   font-size: 30px;
+}
+.contactInfo {
+  padding: 30px;
 }
