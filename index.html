@@ -99,6 +99,28 @@
         </ul>
 
     </section>
+    <section id="productSuggestions">
+        <ul>
+            <li class="editorPicks">
+                <div class="imgLeftSide">
+                    <img src="./images/fathersday.jpg" alt="fathers day gifts">
+                </div>
+                <div class="infoRightSide">
+                    <h1>Editors' Picks</h1>
+                    <p>Father's Day Gifts</p>
+                </div>
+            </li>
+            <li class="editorPicks">
+                <div class="imgLeftSide">
+                    <img src="./images/gift.jpg" alt="fathers day gifts">
+                </div>
+                <div class="infoRightSide">
+                    <h1>Editors' Picks</h1>
+                    <p>Find the Perfect Gifts</p>
+                </div>
+            </li>
+        </ul>
+    </section>
     <section id="shipping">
         Free Shippping 365 Day Return Policy
     </section>
@@ -106,7 +128,7 @@
         <h2>&copy; 2018 Lemmons-Creative Inc.
         </h2>
 
-        <div class="contactInfo">
+        <div class="contactInfo ">
             <h4>Contact Us:</h4>
             <p>1111 Pine Ave</p>
             <p>Charlotte,NC</p>
@@ -117,26 +139,26 @@
     </footer>
 
     <script>
-        $(".main").on("click", function (e) {
+        $(".main ").on("click ", function (e) {
             e.preventDefault()
 
             let list = $(this).children()[2]
-            let arrowRight = "fas fa-angle-right categoryArrow fa-4x";
-            let arrowDown = "fas fa-angle-down categoryArrow fa-4x";
+            let arrowRight = "fas fa-angle-right categoryArrow fa-4x ";
+            let arrowDown = "fas fa-angle-down categoryArrow fa-4x ";
             //show and hide accordion
             $(this).next().toggle()
 
-            if ((list.dataset.arrow) === "true") {
-                (list.dataset.arrow = "false")
+            if ((list.dataset.arrow) === "true ") {
+                (list.dataset.arrow = "false ")
                 list.className = arrowDown;
             }
-            else if ((list.dataset.arrow) === "false") {
-                (list.dataset.arrow = "true")
+            else if ((list.dataset.arrow) === "false ") {
+                (list.dataset.arrow = "true ")
                 list.className = arrowRight;
             }
         })
 
-        $(".subcategory").on("click", "li", function (e) {
+        $(".subcategory ").on("click ", "li ", function (e) {
             e.preventDefault()
 
             let siteLocation = ($(this).children()[0].href)
