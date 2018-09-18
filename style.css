@@ -7,18 +7,17 @@ body {
 
 header {
   overflow: hidden;
-  padding: 10px;
   width: 95%;
   margin-left: 2%;
-  border-top: 3px solid rgba(163, 158, 158, 0.7);
-  border-bottom: 4px solid rgba(163, 158, 158, 0.7);
+  padding: 20px 0 20px 0;
+  border-top: 1px solid rgba(163, 158, 158, 0.7);
+  border-bottom: 2px solid rgba(163, 158, 158, 0.7);
 }
 
 header h1 {
   float: left;
-  padding: 10px;
-  font-size: 50px;
-  margin-top: 15px;
+  font-size: 25px;
+  margin-left: 10px;
   color: rgba(253, 95, 0, 1);
 }
 
@@ -30,7 +29,6 @@ a {
 
 #mobileLinks li,
 #mobileLinks a {
-  line-height: 100px;
   color: rgba(22, 135, 167, 1);
 }
 
@@ -38,14 +36,13 @@ a {
   float: right;
 }
 
-#mobileLinks ul {
-  padding: 10px;
-}
-
 #mobileLinks li {
   display: inline-block;
-  padding: 0 10px 0 10px;
-  font-size: 40px;
+  padding: 0 5px 0 5px;
+  font-size: 18px;
+}
+#mobileLinks i:hover {
+  cursor: pointer;
 }
 
 #fullSiteLinks {
@@ -53,31 +50,32 @@ a {
 }
 
 #signInBtn {
-  border: 2px solid rgba(22, 135, 167, 1);
-  border-radius: 20px;
-  padding: 20px;
+  border: 1px solid rgba(22, 135, 167, 1);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 #landingImage {
   clear: both;
   background-image: url("./images/sheep.jpg");
   background-size: cover;
-  height: 600px;
   color: white;
+  padding: 50px 0 100px 0;
 }
 
 #landingImage h2 {
-  font-size: 60px;
-  width: 60%;
-  padding: 200px 0 50px 60px;
+  font-size: 28px;
+  padding: 0 50px 0 20px;
+  width: 70%;
   font-family: "Roboto", sans-serif;
-  line-height: 70px;
 }
 
 #differentText {
+  padding: 5px 0 0 20px;
+  font-size: 25px;
   color: rgba(253, 95, 0, 1);
   font-family: "Fredoka One", cursive;
-  text-shadow: 2px 2px white;
+  text-shadow: 1px 1px white;
 }
 
 #searchForm {
@@ -90,7 +88,7 @@ a {
 
 #search input[type="text"] {
   width: 80%;
-  font-size: 50px;
+  font-size: 20px;
   padding: 0;
   margin: 10px 0 10px 5%;
 
@@ -104,16 +102,17 @@ a {
 #search i {
   padding: 10px;
   float: right;
+  font-size: 25px;
 }
 
 hr {
-  margin: 50px;
+  margin: 20px;
 }
 
 #searchCategories h1 {
   text-align: center;
-  font-size: 60px;
-  padding: 40px;
+  font-size: 30px;
+  padding: 20px;
 }
 
 #searchCategories ul {
@@ -131,23 +130,21 @@ hr {
 }
 
 #searchCategories i {
-  padding: 15px;
+  font-size: 30px;
+  padding-left: 5px;
 }
 
 .categoryText {
-  font-size: 60px;
+  font-size: 25px;
   padding-left: 10px;
 }
 
 .categoryArrow {
   float: right;
-  line-height: 100px;
 }
 
 .subcategory li {
-  height: 100px;
-  line-height: 100px;
-  font-size: 60px;
+  font-size: 20px;
 }
 .subcategory li:active {
   background-color: rgba(235, 110, 68, 0.7);
@@ -166,7 +163,7 @@ a:active {
   display: none;
 }
 #productSuggestions {
-  padding: 200px 0 100px 0;
+  padding: 100px 0 100px 0;
 }
 #productSuggestions ul {
   width: 80%;
@@ -175,14 +172,14 @@ a:active {
 }
 .editorPicks {
   display: flex;
-  border: 4px solid rgba(253, 95, 0, 1);
-  margin-top: 50px;
-  height: 300px;
+  border: 2px solid rgba(253, 95, 0, 1);
+  margin-top: 20px;
 }
 .imgLeftSide,
 .infoRightSide {
   font-family: "Roboto", sans-serif;
-  flex: 1;
+  width: 50%;
+  height: 150px;
 }
 
 .imgLeftSide img {
@@ -190,20 +187,20 @@ a:active {
   height: 100%;
 }
 .infoRightSide h1 {
-  font-size: 40px;
-  padding: 20px;
+  font-size: 20px;
+  padding: 10px 0 0 10px;
   color: rgba(44, 44, 44, 0.8);
 }
 .infoRightSide p {
-  font-size: 50px;
-  padding: 20px 30px 30px 30px;
+  font-size: 25px;
+  padding: 20px 0 0 10px;
   text-shadow: 1px 1px rgba(44, 44, 44, 0.8);
 }
 #shipping {
   background-color: rgba(238, 238, 238, 1);
-  font-size: 50px;
+  font-size: 25px;
   text-align: center;
-  padding: 50px;
+  padding: 20px;
   margin-top: 50px;
 }
 

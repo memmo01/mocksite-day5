@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>mocksite 5</title>
     <link rel="stylesheet" href="./reset.css">
@@ -36,14 +37,14 @@
         </nav>
     </header>
     <section id="landingImage">
-        <h2>Searching for something different? <span id="differentText">You can find it here</span>
-        </h2>
+        <h2>Searching for something different?</h2>
+        <p id="differentText">You can find it here</p>
 
     </section>
     <section id="search">
         <form id="searchForm">
             <input type="text" name="search" placeholder="Search Site..">
-            <i class="fas fa-search fa-4x"></i>
+            <i class="fas fa-search"></i>
 
         </form>
     </section>
@@ -54,7 +55,7 @@
         <h1>Shop by Category</h1>
 
         <ul id="u">
-            <li class="main"><i class="fas fa-couch fa-5x "></i> <span class="categoryText">Home and Living</span><i class="fas fa-angle-right categoryArrow fa-4x"
+            <li class="main"><i class="fas fa-couch  "></i> <span class="categoryText">Home and Living</span><i class="fas fa-angle-right categoryArrow "
                     data-arrow="true"></i>
 
             </li>
@@ -67,7 +68,7 @@
                 <li><a href="#">Home Office Furniture</a></li>
             </div>
 
-            <li class="main"><i class="far fa-gem fa-5x"></i><span class="categoryText">Jewlery</span><i class="fas fa-angle-right categoryArrow fa-4x"
+            <li class="main"><i class="far fa-gem "></i><span class="categoryText">Jewlery</span><i class="fas fa-angle-right categoryArrow "
                     data-arrow="true"></i></li>
             <div class="subcategory">
                 <li><a href="#">All Jewlery</a></li>
@@ -77,7 +78,7 @@
                 <li><a href="#">Charms</a></li>
                 <li><a href="#">Watches</a></li>
             </div>
-            <li class="main"><i class="fas fa-tshirt fa-5x "></i><span class="categoryText">Clothing</span><i class="fas fa-angle-right categoryArrow fa-4x"
+            <li class="main"><i class="fas fa-tshirt  "></i><span class="categoryText">Clothing</span><i class="fas fa-angle-right categoryArrow "
                     data-arrow="true"></i></li>
             <div class="subcategory">
                 <li><a href="#">All Clothing</a></li>
@@ -87,7 +88,7 @@
                 <li><a href="#">Boy's Clothing</a></li>
                 <li><a href="#">Baby Clothing</a></li>
             </div>
-            <li class="main"><i class="fas fa-cut fa-5x"></i><span class="categoryText">Craft Supplies</span><i class="fas fa-angle-right categoryArrow fa-4x"
+            <li class="main"><i class="fas fa-cut "></i><span class="categoryText">Craft Supplies</span><i class="fas fa-angle-right categoryArrow "
                     data-arrow="true"></i></li>
             <div class="subcategory">
                 <li><a href="#">All Crafts</a></li>
@@ -143,8 +144,8 @@
             e.preventDefault()
 
             let list = $(this).children()[2]
-            let arrowRight = "fas fa-angle-right categoryArrow fa-4x ";
-            let arrowDown = "fas fa-angle-down categoryArrow fa-4x ";
+            let arrowRight = "fas fa-angle-right categoryArrow  ";
+            let arrowDown = "fas fa-angle-down categoryArrow  ";
             //show and hide accordion
             $(this).next().toggle()
 
