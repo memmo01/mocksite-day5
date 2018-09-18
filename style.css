@@ -145,6 +145,8 @@ hr {
 
 .subcategory li {
   font-size: 20px;
+  width: 85%;
+  margin-left: 7.5%;
 }
 .subcategory li:active {
   background-color: rgba(235, 110, 68, 0.7);
