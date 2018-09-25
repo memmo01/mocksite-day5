@@ -127,6 +127,7 @@ hr {
 }
 .main {
   background-color: rgba(234, 234, 234, 0.7);
+  clear: both;
 }
 
 #searchCategories i {
@@ -146,7 +147,7 @@ hr {
 .subcategory li {
   font-size: 20px;
   width: 85%;
-  margin-left: 7.5%;
+  float: right;
 }
 .subcategory li:active {
   background-color: rgba(235, 110, 68, 0.7);
@@ -163,9 +164,11 @@ a:active {
 }
 .subcategory {
   display: none;
+  float: right;
 }
 #productSuggestions {
   padding: 100px 0 100px 0;
+  clear: both;
 }
 #productSuggestions ul {
   width: 80%;
@@ -213,12 +216,12 @@ footer {
   color: white;
 }
 footer h2 {
-  padding: 50px;
+  padding: 20px;
 }
 
 .contactInfo h4 {
-  padding: 30px;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 25px;
 }
 .contactInfo {
   padding: 30px;
